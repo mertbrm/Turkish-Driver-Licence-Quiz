@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@701,200,500,301,201,300,601,600,401,501,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+        <div class="nav-title">Türkçe Ehliyet Sınavları</div> 
+        <ul>
+            <li>
+                <a class="tests-link" href="#Tests">Diger Testler</a>
+            </li>
+            <li>
+                <a class="info-link" href="#Info">Hakkında</a>
+            </li>
+            <li>
+                <a class="contact-link" href="#Contact">Iletişim</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    
+    <div class="content">
+        <div class="quiz-info">
+            <div class="test-no">Test 1</div>
+            <div id="question-order" class="answer-no"></div>
+        </div>
+
+        <div id="quiz-content">
+            <!-- Quiz questions and answers will be displayed here -->
+        </div>
+            </div>
+            <div class="container">
+            <!-- Question buttons will be generated here -->
+                <div class="navigation">
+                    <button id="prev-btn"><i class="fa-solid fa-arrow-left"></i>Önceki</button>
+                    <button id="next-btn">Sonraki<i class="fa-solid fa-arrow-right"></i></button>
+                    <button id="finish-btn">Testi Sonlandır</button>
+                </div>
+                <div id="result-container" class="result-container">
+                    <!-- Quiz results will be displayed here -->
+                </div>
+                <div class="question-buttons" id="question-buttons"></div>
+            </div>
+            <footer>
+                <hr>
+                <div class="footer-container">
+                    <div>
+                        <ul>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Linkedin</a></li>
+                           </ul>
+                       </div>
+                       <div>
+                           <p class="developer">developed & designed by mert bayram</p>
+                       </div>
+                       <!-- <div>
+                           <p>all rights <a href="www.com"> NPHSI</a></p>
+                       </div> -->
+                   </div>
+               </footer>
+
+
+    <script src="test1.js"></script>
+    <script src="questions1.js"></script>
+</body>
+</html>
